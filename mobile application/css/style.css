@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Dosis';
+    font-family: 'Dosis', serif;
 }
 
 
@@ -16,34 +16,34 @@
 }
 
 /* global */
-.container{
+.container_header{
     width: 1140px;
     margin: 0 auto;
 }
 
 /* header logo css */
-#header-top .container .logo-menu img{
+#header-top .container_header .logo-menu img{
     height: auto;
     padding: 10px 0;
 }
 
-#header-top .container .menu-part{
+#header-top .container_header .menu-part{
     align-items: center;
 }
 
-#header-top .container .menu-part nav ul li a{
+#header-top .container_header .menu-part nav ul li a{
     color: white;
     padding-right: 20px;
     font-weight: bold;
     font-size: 15px;
 }
 
-#header-top .container .menu-part nav ul li .drop-down{
+#header-top .container_header .menu-part nav ul li .drop-down{
     background: rgb(113, 172, 211);
     color: white;
     border: 1px solid white;
 }
-#header-top .container .menu-part nav ul li .drop-down a:hover{
+#header-top .container_header .menu-part nav ul li .drop-down a:hover{
     background: transparent;
     color: black;
     cursor: pointer;
@@ -52,7 +52,7 @@
 }
 
 
-#header-top .container .btn-part{
+#header-top .container_header .btn-part{
     padding: 10px 0;
     text-align: right;
 
@@ -61,11 +61,17 @@
 
 /* global_button */
 .global_button{
-    background: #00fff0;
+    /* background: #00fff0;
     border: none;
     padding: 8px 35px;
     border-radius: 10px;
     font-size: 14px;
+    font-weight: bold; */
+    background: #00fff0;
+    border: none;
+    padding: 7px 31px;
+    border-radius: 10px;
+    font-size: 12px;
     font-weight: bold;
 
 }
@@ -75,7 +81,7 @@
     transition: ease-out 0.8s;
 }
 
-#header-top .container .btn-part .header_nav{
+#header-top .container_header .btn-part .header_nav{
     color: white;
     font-size: 25px;
     margin-bottom: -4px;
@@ -84,12 +90,17 @@
 
 
 /* main part css start here */
+/* global container  */
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
 
 /* hero section */
 #hero_section{
     width: 100%;
     background: #223047;
-    padding: 1.7in 0 0;
+    padding: 135px 0 0;
 }
 
 .hero-part .writing-part{
@@ -100,27 +111,65 @@
 
 .hero-part .img-part{
     width: 50%;
-    margin-bottom: -1.1in;
+    margin-bottom: -85px;
 }
 
 /* global paragraph */
 .global_para{
     color: #97a4be;
-    font-size: 12.8pt;
+    font-size: 9.8pt;
     margin-bottom: 50px;
 }
 
 .hero-part .writing-part h1{
-    font-size: 38pt;
+    font-size: 30pt;
     margin: 50px 0;
 }
 
 .hero-part .writing-part .hero-part-button{
-    margin-left: 30px;
+    /* margin-left: 30px;
     background: transparent;
     border: 1px solid white;
     padding: 9px 35px;
     color: white;
     font-size: 13px;
+    border-radius: 7px; */
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 29px;
+    color: white;
+    font-size: 11px;
     border-radius: 7px;
+}
+
+.hero-part .img-part img{
+    width: 240px;
+    margin-left: 180px;
+}
+
+
+/* service section */
+
+.services-part .service_head{
+    margin-top: 185px;
+    padding-bottom: 70px;
+    align-items: center;
+    text-align: center;
+    position: relative;    
+}
+
+.services-part .service_head h1{
+    font-size: 27pt;
+    color: #233148;
+}
+
+
+.square_item:after{
+    content: '';
+    border-bottom: 6px solid #00fff0;
+    position: absolute;
+    width: 11%;
+    bottom: 0;
+    left: 43%;
 }
