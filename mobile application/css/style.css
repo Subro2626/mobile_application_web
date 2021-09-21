@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+}
+
+
+/* header css */
+#header-top{
+    width: 100%;
+    background: #223047;
+    padding: 5px 0;
+    margin-bottom: 1px;
+}
+
+/* global */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header logo css */
+#header-top .container .logo-menu img{
+    height: auto;
+    padding: 10px 0;
+}
+
+#header-top .container .menu-part{
+    align-items: center;
+}
+
+#header-top .container .menu-part nav ul li a{
+    color: white;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#header-top .container .menu-part nav ul li .drop-down{
+    background: transparent;
+    border: 1px solid white;
+}
+#header-top .container .menu-part nav ul li .drop-down a:hover{
+    background: transparent;
+    color: #00ffee8c;
+    cursor: pointer;
+    box-shadow: 1px 2px 8px 2px #00ffee8c;
+    transition: ease-out;
+}
+
+
+#header-top .container .btn-part{
+    padding: 10px 0;
+    text-align: right;
+
+}  
+
+
+/* global_button */
+.global_button{
+    background: #00fff0;
+    border: none;
+    padding: 8px 35px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.global_button:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 8px 2px #00ffee8c;
+    transition: ease-out 0.8s;
+}
+
+#header-top .container .btn-part .header_nav{
+    color: white;
+    font-size: 25px;
+    margin-bottom: -4px;
+    margin-left: 20px;
+}
+
+
+/* main part css start here */
+
+/* hero section */
+#hero_section{
+    width: 100%;
+    background: #223047;
+    padding: 1.7in 0 0;
+}
+
+.hero-part .writing-part{
+    width: 100%;
+    float: left;
+    color: white;
+}
+
+.hero-part .img-part{
+    width: 50%;
+    margin-bottom: -1.1in;
+}
+
+/* global paragraph */
+.global_para{
+    color: #97a4be;
+    font-size: 12.8pt;
+    margin-bottom: 50px;
+}
+
+.hero-part .writing-part h1{
+    font-size: 38pt;
+    margin: 50px 0;
+}
+
+.hero-part .writing-part .hero-part-button{
+    margin-left: 30px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 9px 35px;
+    color: white;
+    font-size: 13px;
+    border-radius: 7px;
+}
